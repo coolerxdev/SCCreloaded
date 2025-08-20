@@ -28,7 +28,7 @@ class SUBTITLES_PROVIDER:
 
 
 class URL:
-    API = '//127.0.0.1:3000' if DEBUG else '//generator.staalboek.cz/api'
+    API = '//127.0.0.1:3000' if DEBUG else '//api'
     LOG_UPLOAD_URL = '//paste.kodi.tv/documents'
     OPEN_SUBTITLES = '//api.opensubtitles.org/xml-rpc'
     WEBSHARE_API = '//webshare.cz/api{0}'
@@ -39,7 +39,7 @@ class URL:
     CSFD_TIPS = '//csfd.cz/televize'
     TEST_FILE_512MB = '//vip.5.dl.webshare.cz/test.soubor'
     TEST_FILE_1GB = '//vip.1.dl.webshare.cz/test.soubor'
-    VERSION_INFO = '//generator.staalboek.cz/version-info.json'
+    VERSION_INFO = '//api'
     TITULKY = '//www.titulky.com'
     TITULKY_SEARCH = TITULKY + '/?Fulltext={0}'
 
